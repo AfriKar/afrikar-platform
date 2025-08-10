@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "l'extrémité avant/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "l'extrémité avant/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
