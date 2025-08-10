@@ -1,0 +1,61 @@
+Last login: Sun Aug 10 13:23:55 on ttys000
+mamediallo@macbookpro afrikar_project_v2 %                                     
+git clone https://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@github.com/AfriKar/afrikar-platform.git
+
+cd afrikar-platform
+
+cp -R ~/afrikar_project_v2/* .
+
+git add .
+
+git commit -m "Initial commit: AfriKar platform v2"
+
+git branch -M main
+
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
